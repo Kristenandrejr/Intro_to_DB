@@ -1,5 +1,5 @@
--- Create the bookstore database
-CREATE DATABASE alx_book_store;
+-- Create the bookstore database if it doesn't exist
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
 
 -- Table to store book information
